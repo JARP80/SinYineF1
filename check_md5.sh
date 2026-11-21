@@ -4,7 +4,7 @@ SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE}")" && pwd)"
 SCRIPT_NAME="$(basename "${BASH_SOURCE}")"
 
 # Exclude the script, README.md, and your 2 custom files
-EXCLUDE_FILES=("$SCRIPT_NAME" "README.md" "check_md5.sh" )
+EXCLUDE_FILES=("$SCRIPT_NAME" "README.md" "check_md5.sh" "license.md" )
 
 # Print the Markdown table header to the terminal
 printf "| File Name | MD5 Checksum |\n"
